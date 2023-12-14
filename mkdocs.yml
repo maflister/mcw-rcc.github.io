@@ -179,3 +179,6 @@ nav:
     - Data Transfer: secure-computing/mfa-data-transfer.md
     - Run a Job: secure-computing/workflow.md
     - Software: secure-computing/software.md
+  - Other Resources:
+    - MCW Cores: resources/cores.md
+    
