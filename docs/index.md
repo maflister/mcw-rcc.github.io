@@ -8,10 +8,7 @@ Research Computing provides services and support for computational research at M
 
 ### HPC Cluster
 
-The {{ hpc_name }} cluster is the institution's primary computational resource, and has been available to MCW researchers since March 2021. The cluster consists of **3,360** CPU cores in **70** compute nodes. This includes large memory nodes and GPUs. All compute nodes are connected by a 100Gbps RoCEv2 network (ethernet equivalent to Infiniband). The cluster also includes a **215TB** NVMe scratch storage filesystem. Please see the [Quick Start guide](user-guide/quickstart.md) for more detail.
-
-!!! info "Operating System Upgrade"
-    The operating system of the HPC cluster will be upgraded from CentOS 7 to Rocky Linux 8. For more information see [HPC cluster upgrade](cluster-el8.md).
+The {{ hpc_name }} cluster is the institution's primary computational resource, and has been available to MCW researchers since March 2021. The cluster consists of **3,400** CPU cores in **71** compute nodes. This includes large memory and GPU nodes. All cluster systems run on the Rocky Linux 8 operating system and are connected by a 100Gbps RoCEv2 network. The cluster also includes a **215TB** NVMe scratch storage filesystem. Please see the [Quick Start guide](cluster/quickstart.md) for more detail.
 
 ### ResHPC
 

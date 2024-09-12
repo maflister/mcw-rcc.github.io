@@ -5,7 +5,7 @@
 ??? question "How do I get an account?"
     Please go to the [Account Request page](https://docs.rcc.mcw.edu/user-guide/accounts/){:target="_blank"} and click "Request an Account". Fill in the form and we will process your request. We will inform you once your account has been created or if we need further information.
 ??? question "How do I login?"
-    The method you use to login depends on your computer and use case. We suggest you start with the [quickstart guide](user-guide/quickstart.md#logging-in).
+    The method you use to login depends on your computer and use case. We suggest you start with the [quickstart guide](cluster/quickstart.md#logging-in).
 
 ??? question "Why can't I login?"
     * You might not have an account.
@@ -73,10 +73,10 @@
 
     * Your job might be requesting resources that are not currently available. Check the output of `squeue -j JobID`, where **JobID** is your SLURM job number. In the output, check the final column '''Nodelist (Reason)'''. You might see '''PD''' followed by a reason why the job is not running. This could indicate that your job is temporarily waiting for resources (see above) or is blocked. The more resources that you request, the higher chance that your job might sit in queue waiting for those resources to become available. Try to limit the amount of resources you request to only the ones you really need.
 
-    * Your job might be blocked by a maintenance window. For details see [Job Scheduling and Maintenance](user-guide/jobs/running-jobs.md#job-scheduling-and-maintenance).
+    * Your job might be blocked by a maintenance window. For details see [Job Scheduling and Maintenance](cluster/jobs/running-jobs.md#job-scheduling-and-maintenance).
 
 ??? question "Can I run a task/script on a login node?"
-    Yes, but you should make sure you know exactly how many cores and memory the task will use. Additionally, you should make sure this task will not run for more than **30 min**. Examples of allowed tasks might be a pre- or post- processing task for your input/output files. This might also include compiling or installing software. In general, please try to run all computationally intensive tasks on on the cluster compute nodes. For details see the [User Etiquette Guide](user-guide/etiquette.md).
+    Yes, but you should make sure you know exactly how many cores and memory the task will use. Additionally, you should make sure this task will not run for more than **30 min**. Examples of allowed tasks might be a pre- or post- processing task for your input/output files. This might also include compiling or installing software. In general, please try to run all computationally intensive tasks on on the cluster compute nodes. For details see the [User Etiquette Guide](cluster/etiquette.md).
 
 ??? question "Can I have root or sudo access on a compute node?"
     No. RCC does not allow root and/or sudo access on any system.
@@ -128,7 +128,7 @@
     Your home directory limit cannot be increased. You scratch directory limit may be increase upon request but this is subject to availability. Your `/group` Research Group Storage directory may be increased by [purchasing additional space](storage/paid-storage.md).
 
 ??? question "Why is `/group` not available on HPC cluster compute nodes?"
-    The file system that contains `/group` is not designed for performance computing. In order to preserve every user's experience with `/group`, it is not available on compute nodes. You should follow the [scratch directory procedures](user-guide/jobs/storage-job.md) to make sure your data is available to your cluster job.
+    The file system that contains `/group` is not designed for performance computing. In order to preserve every user's experience with `/group`, it is not available on compute nodes. You should follow the [scratch directory procedures](cluster/jobs/storage-job.md) to make sure your data is available to your cluster job.
 
 ??? question "Can I mount my own storage to the cluster?"
     No. RCC provides storage that is mounted to the cluster. This storage is specifically designed to work within the cluster network and meets performance requirements.
