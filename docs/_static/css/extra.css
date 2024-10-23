@@ -1,6 +1,7 @@
 /* main color */
 :root {
-    --md-primary-fg-color:#005A96;
+    --md-primary-fg-color: #005A96;
+    --md-default-fg-color--light: #414141;
 }
 
 /* publications */
@@ -13,7 +14,14 @@
     max-width: 1800px;
 }
 
-/* nav/heading readability */
-:root {
-    --md-default-fg-color--light: #414141;
+.md-header__inner.md-grid, .md-tabs{
+    margin-left: auto;
+    margin-right: 0rem;
+    max-width: 67rem;
+}
+
+.md-banner__inner.md-grid.md-typeset{
+margin-left: auto;
+margin-right: 0rem;
+max-width: 67rem;
 }
