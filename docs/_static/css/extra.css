@@ -13,15 +13,3 @@
 .md-grid {
     max-width: 1800px;
 }
-
-.md-header__inner.md-grid, .md-tabs{
-    margin-left: auto;
-    margin-right: 0rem;
-    max-width: 67rem;
-}
-
-.md-banner__inner.md-grid.md-typeset{
-margin-left: auto;
-margin-right: 0rem;
-max-width: 67rem;
-}
