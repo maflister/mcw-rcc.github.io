@@ -42,7 +42,7 @@ After this, the collection will open normally.
 
 ### Transferring data
 
-To begin transferring data, open the [File Manager]<https://app.globus.org/file-manager>{: target="_blank" }. For ease of use, select the middle side-by-side layout in the upper right corner. Use the collection search bars to select a source collection on the left, and a destination collection on the right. Select files and folders for transfer, then select **Start** on the left side, initiating transfer from left to right. To transfer data in the opposite direction, select files and folders for transfer, then select **Start** on the right side, initiating transfer from right to left.
+To begin transferring data, open the [File Manager](https://app.globus.org/file-manager){: target="_blank" }. For ease of use, select the middle side-by-side layout in the upper right corner. Use the collection search bars to select a source collection on the left, and a destination collection on the right. Select files and folders for transfer, then select **Start** on the left side, initiating transfer from left to right. To transfer data in the opposite direction, select files and folders for transfer, then select **Start** on the right side, initiating transfer from right to left.
 
 !!! info "Globus Tip"
     Globus continues working even if you close the window or lose your browser connection.
