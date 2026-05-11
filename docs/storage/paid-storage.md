@@ -38,10 +38,10 @@ Payment is made through the MCW-IS service desk website using the following guid
 1. Proceed to <https://servicedesk.mcw.edu>{:target="_blank"} and login.
 2. Select **Software > RCC Software**, then **Research Group Storage - 1TB**.
 3. To pay for 1 TB, select **Add to Cart**. If you are paying for multiple TBs, select **Add Multiple** and enter the quantity.
-4. Select **Place Your Order** and enter your 16-17 Digit Account Number.
-5. Finally, you'll be asked to enter PI information. Use this if you're a non-PI requesting the storage on behalf of a PI.
+4. Select **Enter Payment** and enter your MCW payment account(s). If you do not have your payment account information, please contact your department administrator.
+5. Finally, select **Place Your Order**. You will be asked to enter PI information. Use this if you're a non-PI requesting the storage on behalf of a PI.
 
 !!! note "Questions?"
-    If you have questions about your quota limit, please email {{ support_email }}. If you have questions about the self-service payment process, please contact the MCW-IS help desk.
+    If you have questions about your quota limit, please email {{ support_email }}. If you have questions about the self-service payment process, please contact the MCW-IS help desk. If you have questions about your payment account, please contact your department administrator.
 
 --8<-- "includes/abbreviations.md"
